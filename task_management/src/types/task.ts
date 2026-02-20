@@ -7,5 +7,14 @@ export interface Task {
     title: string;
     description: string;
     status: TaskStatus;
-    createdAt: Date;        // string
+    createdAt: Date;        // string (production)
 }
+
+export type TaskAction =
+  | { type: "ADD"; payload: Task }
+  | { type: "UPDATE"; payload: Task }
+  | { type: "DELETE"; payload: string };
+
+
+
+  

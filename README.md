@@ -64,8 +64,9 @@ src
 Project Useage 
 -------------------------------------
 
+Once a user logs in and is authenitcated, they can access the Task Dashboard.
 
-
+The Task Dashboard includes:
 
 
 

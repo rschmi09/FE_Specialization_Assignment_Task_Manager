@@ -14,7 +14,8 @@ const Dashboard = () => {
       </Link>
       <AuthButtons />
       <TaskList />
-      
+      {TaskList.length === 0 && <p>No tasks found. Create your first task!</p>}
+
     </div>
   );
 };
