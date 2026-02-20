@@ -39,8 +39,11 @@ src
 |
 |_ context
 |   |_TaskContext.tsx
+|   |_TaskProvider.tsx
+|   |_TaskReducer.tsx
 |   |_useContext.tsx
 |   |_useTaskContext.tsx
+|   |_useTasks.tsx
 |
 |
 |_ pages
@@ -54,6 +57,7 @@ src
 |
 |
 |_ types
+|   |_auth.ts
 |   |_task.ts
 |
 |
