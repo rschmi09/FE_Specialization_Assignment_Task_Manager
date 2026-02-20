@@ -65,12 +65,30 @@ src
 
 
 -------------------------------------
+Project Features
+-------------------------------------
+
+- Task Dashboard
+    - View all tasks
+    - Create, Edit, Delete tasks
+- Authentification and Authorization
+    - login and registration via Auth0  ***did not sign up for Auth0. login will not work***
+    - Protected Routes for authenticated users only
+- Typescript Integration
+     - Fully typed 'Task' interface and discriminated unions for actions
+     - Typed Context API and custom hooks
+- State Management
+      - Global task state managed via 'useReducer' and 'ContextAPI'
+- Responsive UI
+      - Simple and clean dashboard layout  
+
+
+-------------------------------------
 Project Useage 
 -------------------------------------
 
-Once a user logs in and is authenitcated, they can access the Task Dashboard.
-
-The Task Dashboard includes:
-
-
-
+- user will 'login' or 'register' to authenticate
+- will have access to the 'home' / 'dashboard' to see all tasks
+- Create, Edit, Delete Tasks
+- View and edit details for a Task
+- 
